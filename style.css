@@ -1,0 +1,223 @@
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/bg.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("images/bg2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("images/bg3.jpg");
+  min-height: 400px;
+}
+
+.captionBottom {
+  position: absolute;
+  left: 0;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.captionCenter {
+  position: absolute;
+  left: 0;
+  top: 34.5%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #247700;
+  color: #fff;
+  padding: 18px;
+  font-size: 50px;
+  letter-spacing: 10px;
+  font: 400 50px "Times New Roman", sans-serif;
+}
+
+.caption span.bord2 {
+  background-color: #247700;
+  color: white;
+  padding: 18px;
+  font-size: 30px;
+  letter-spacing: 8px;
+  font: 400 30px "Lato", sans-serif;
+}
+
+.caption span.border2 {
+  background-color: #247700;
+  color: #fff;
+  padding: 18px;
+  font-size: 40px;
+  letter-spacing: 10px;
+  font: 400 40px "Lato", sans-serif;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+p.foot {
+	 text-shadow: 1px 1px 3px #000, 4px 4px 2px green;
+}
+
+.foot a:link, a:visited {
+    	 color: white;
+    	 padding: 14px 25px;
+    	 text-align: center; 
+    	 text-decoration: none;
+    	 display: inline-block;
+	 border-radius: 2px;
+	 -webkit-transition: background 0.2s;
+	 transition: background 0.2s;
+}
+
+
+.foot a:hover, a:active {
+	color: yellow;
+}
+
+.con a:link, a:visited {
+    	 background-color: #247700;
+    	 color: white;
+    	 padding: 14px 25px;
+    	 text-align: center; 
+    	 text-decoration: none;
+    	 display: inline-block;
+	 border-radius: 2px;
+	 -webkit-transition: background 0.2s;
+	 transition: background 0.2s;
+}
+
+.con a:hover, a:active {
+	background-color: #f3d900;
+	color: #247700;
+}
+
+.selection {
+	position: relative;
+	display: inline-block;
+	min-width: 60%;
+	margin: 0 1em 2.5em;
+	padding: 1em 1em 1em;
+	background: #247700;
+	border-radius: 5px;
+}
+
+.grid {
+	margin: 0 auto;
+	padding: 3em 1em;
+	max-width: 1200px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.grid2 {
+	margin: 0 auto;
+	padding: 3em 1em;
+	max-width: 1200px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.product {
+	position: relative;
+	display: inline-block;
+	min-width: 16em;
+	margin: 0 1em 2.5em;
+	padding: 1.5em 1.5em 1.5em;
+	background: green;
+	border-radius: 5px;
+}
+
+.p_title {
+	color: yellow;
+	letter-spacing: 0.5px;
+}
+
+.p_price {
+	font-weight: bold;
+	color: gold;
+}
+
+.action {
+	display: inline-block;
+	font-size: 1em;
+	white-space: nowrap;
+	padding: 0.85em 1.25em;
+	cursor: pointer;
+	border: none;
+	background: transparent;
+	text-align: center;
+}
+
+.a_button {
+	background: darkgreen;
+	color: white;
+	border-radius: 2px;
+	-webkit-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+.a_button:hover {
+	background: orange;
+}
+
+.a_text {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: .813em;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+table.fixed { table-layout:fixed; }
+table.fixed td { overflow: hidden; }

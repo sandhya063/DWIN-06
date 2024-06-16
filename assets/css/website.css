@@ -1,0 +1,109 @@
+/* ... (Basic styling remains the same) ... */
+header {
+    background-color: #2ecc71; 
+    color: white; 
+    padding: 1rem 0;
+    position: sticky; /* Make header sticky */
+    top: 0;          /* Stick it to the top */
+    z-index: 10;     /* Ensure it's above other content */
+}
+
+.logo img { 
+    height: 60px; 
+    vertical-align: middle; /* Align logo with text */
+}
+.image_diagram {
+    width: 700px;
+    height: auto;
+
+}
+.service_css{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Make menu horizontal */
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners for menu items */
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Main Section Styling */
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden; 
+    transition: all 0.3s ease;  /* Smooth transitions for hover effects */
+    border-radius: 10px;        /* Rounded corners for sections */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle initial shadow */
+    
+
+
+
+}
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+
+section {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden; 
+    transition: all 0.3s ease;  /* Smooth transitions for hover effects */
+    border-radius: 10px;        /* Rounded corners for sections */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle initial shadow */
+}
+
+section:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.section-content {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    background-color: white; /* White background for content */
+    border-right: 2px solid #27ae60; /* Add a right border for visual separation */
+}
+
+/* ... (Rest of the CSS for images, buttons, etc.) */
